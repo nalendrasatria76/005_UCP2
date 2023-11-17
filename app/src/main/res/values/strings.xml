@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PAM2</string>
+    <string name="back_button" />
+    <string name="next" />
+    <string name="natural" />
+    <string name="vanilla" />
+    <string name="Lemon" />
+    <string name="milk" />
+    <string name="Lyche" />
+    <string name="subtotal_price" />
 </resources>

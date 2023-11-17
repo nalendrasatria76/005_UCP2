@@ -56,14 +56,14 @@ fun HalamanHome (
                     contentScale = ContentScale.Crop
                 )
                 Text(
-                    text = "es Teh",
+                    text = "UNIVERSITAS MUHAMMADIYAH YOGYAKARTA",
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontSize = 35.sp,
                     modifier = Modifier.align(Alignment.CenterHorizontally)
                 )
                 Text(
-                    text = "TehKita",
+                    text = "UMY",
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontStyle = FontStyle.Italic,
@@ -84,7 +84,7 @@ fun HalamanHome (
                 modifier = Modifier.weight(1f),
                 onClick = onNextButtonClicked
             ){
-                Text(stringResource("Lanjut"))
+                Text(stringResource(R.string.next))
             }
         }
     }
